@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --fonte0: Arial, Helvetica, sans-serif;
+
+
+}
+
+body{
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: var(--cor1);
+}
+
+div.video{
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+header{
+    
+    padding: 24px;
+    margin: -11px;
+    border: 15px;
+    background-image: linear-gradient(to top, #1a5c37,#2fa866, #3ddc84);
+
+}
+
+header > h1{
+    color: white;
+    text-shadow: 0.1em 0.1em black;
+      padding: 3px;
+      text-align: center;
+    
+
+
+}
+header > p{
+    text-align: center;
+}
+nav > a {
+    text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+            color: white;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+main{
+    padding: 50px;
+    background-color: white;
+    border: 3px;
+    margin: auto;
+    margin-top: 11px;
+    margin-bottom: 17px;
+    color: black;
+    border-radius: 0px 0px 5px 5px;
+    min-width: 400px;
+    max-width: 800px;
+    text-align: center;
+  
+    
+    
+}
+
+
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+aside{
+    background-color: #c5ebd6;
+    border-radius: 15px;
+    
+}
+
+aside > ul{
+    text-align: left; 
+
+}   
+    
+
+aside > h3{
+     padding: 11px;
+    background-color: #2fa866;
+    border-radius: 15px 15px 0px 0px;
+    text-align: left;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: #1a5c37;
+    color: white;
+    margin: -7px;
+    padding: 11px;
+    border: 10px;
+}
+
+
+
+div#fonte{
+    font-family: 'idroid', sans-serif;
+    text-align: left;
+    color: var(--cor4);
+    background-image: linear-gradient(to right, #c5ebd6, white);
+    
+
+}
+
+ul{
+    text-decoration: underline;
+    color: black;
+}
+
+p{
+   line-height: 1.5em;
+   text-align: left;
+   text-indent: 2.5em;
+}
+
+b{
+    color: var(--cor3);
+}
